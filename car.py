@@ -10,9 +10,6 @@ try:
     gpio.setup(15, gpio.OUT)
 
     def forward():
-        import RPi.GPIO as gpio
-        import time
-
         gpio.setmode(gpio.BOARD)
         gpio.setup(7, gpio.OUT)
         gpio.setup(11, gpio.OUT)
@@ -26,9 +23,6 @@ try:
         gpio.cleanup()
 
     def backward():
-        import RPi.GPIO as gpio
-        import time
-
         gpio.setmode(gpio.BOARD)
         gpio.setup(7, gpio.OUT)
         gpio.setup(11, gpio.OUT)
@@ -42,9 +36,6 @@ try:
         gpio.cleanup()
 
     def right():
-        import RPi.GPIO as gpio
-        import time
-
         gpio.setmode(gpio.BOARD)
         gpio.setup(7, gpio.OUT)
         gpio.setup(11, gpio.OUT)
@@ -58,9 +49,6 @@ try:
         gpio.cleanup()
 
     def left():
-        import RPi.GPIO as gpio
-        import time
-
         gpio.setmode(gpio.BOARD)
         gpio.setup(7, gpio.OUT)
         gpio.setup(11, gpio.OUT)
